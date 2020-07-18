@@ -1,7 +1,11 @@
 body {
   background-color: #222831;
   color: aliceblue;
-  margin-top: 3rem;
+}
+
+body > h1 {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .content:hover #content-text-a,
@@ -412,18 +416,18 @@ body {
 }
 
 .hover-text h1 {
-  font-size: 5rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .hover-text p {
-  font-size: 1rem;
+  font-size: 1em;
   /* transition: variable to change + speed of the change + direction (for spacing) + delay time */
   transition: letter-spacing 0.5s linear 0.3s;
 }
 
 .content:hover .hover-text p {
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
 footer {
